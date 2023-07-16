@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/home_screen_article_listview.dart';
-import 'package:ui_test_cengizhanparlak/app/service/articles_service.dart';
 import 'package:ui_test_cengizhanparlak/app/service/most_popular_service.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_error_text.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_loading_indicator.dart';

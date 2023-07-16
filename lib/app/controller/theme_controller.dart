@@ -6,7 +6,7 @@ import 'package:ui_test_cengizhanparlak/app/constant/values/colors.dart';
 enum ThemeOption { light, dark }
 
 final themeProvider = ChangeNotifierProvider<ThemeController>((ref) {
-  return ThemeController(ThemeOption.light);
+  return ThemeController(ThemeOption.dark);
 });
 
 class ThemeController extends ChangeNotifier {

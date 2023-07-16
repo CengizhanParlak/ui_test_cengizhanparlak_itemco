@@ -26,9 +26,10 @@ class ArticlesService extends ChangeNotifier {
     articles
       ..clear()
       ..addAll(fetchedArticles);
+    filteredArticles
+      ..clear()
+      ..addAll(fetchedArticles);
     _sortArticles();
-    _filter();
-    notifyListeners();
   }
 
   void _sortArticles() {
@@ -36,7 +37,7 @@ class ArticlesService extends ChangeNotifier {
       return;
     }
     filteredArticles.sort((a, b) {
-      if (sortType == SortType.DATE_ASC) {
+      if (sortType.isAsc) {
         return a.publishedDate.compareTo(b.publishedDate);
       }
       return b.publishedDate.compareTo(a.publishedDate);
@@ -44,7 +45,7 @@ class ArticlesService extends ChangeNotifier {
     notifyListeners();
   }
 
-  void _filter() {
+  void filter() {
     filteredArticles.clear();
     if (nameController.text.isEmpty) {
       _disableFilter();
