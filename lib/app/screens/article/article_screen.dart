@@ -24,7 +24,7 @@ class _ArticleScreenState extends ConsumerState<ArticleScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size(context.width, 48),
+        preferredSize: Size(context.width, 64),
         child: const ArticleScreenAppBar(),
       ),
       body: isFromHTML
