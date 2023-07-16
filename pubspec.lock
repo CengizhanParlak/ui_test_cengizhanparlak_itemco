@@ -773,6 +773,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
+  shine_linters:
+    dependency: "direct dev"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: eadbe112b7df593bb92eb98d63d730a547bbc639
+      url: "https://github.com/CengizhanParlak/shine_linters"
+    source: git
+    version: "1.0.0+1"
   sky_engine:
     dependency: transitive
     description: flutter
