@@ -1,20 +1,19 @@
 // ignore_for_file: always_put_control_body_on_new_line
 
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/paddings.dart';
-import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/home_screen_article_tile.dart';
+import 'package:ui_test_cengizhanparlak/app/service/articles_service.dart';
 
-class ArticlesListView extends StatelessWidget {
+class ArticlesListView extends ConsumerWidget {
   const ArticlesListView({
-    required this.articles,
     super.key,
   });
 
-  final List<Article> articles;
-
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final articles = ref.watch(articlesServiceProvider).filteredArticles;
     return ListView.separated(
       itemCount: articles.length,
       itemBuilder: (_, idx) {

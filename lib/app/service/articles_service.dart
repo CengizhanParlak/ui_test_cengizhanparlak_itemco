@@ -22,6 +22,16 @@ class ArticlesService extends ChangeNotifier {
     articles
       ..clear()
       ..addAll(fetchedArticles);
+    sortArticles();
+    filter();
+    notifyListeners();
+  }
+
+  void sortArticles() {
+    if (articles.isEmpty) return;
+    articles.sort((a, b) {
+      return b.publishedDate.compareTo(a.publishedDate);
+    });
     notifyListeners();
   }
 
@@ -45,7 +55,7 @@ class ArticlesService extends ChangeNotifier {
   }
 
   void disableFilter() {
-    filteredArticles.clear();
+    filteredArticles.addAll(articles);
     notifyListeners();
   }
 

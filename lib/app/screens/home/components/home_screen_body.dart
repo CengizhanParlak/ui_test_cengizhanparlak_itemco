@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/home_screen_article_listview.dart';
+import 'package:ui_test_cengizhanparlak/app/service/articles_service.dart';
 import 'package:ui_test_cengizhanparlak/app/service/most_popular_service.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_error_text.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_loading_indicator.dart';
@@ -16,7 +17,6 @@ class HomeScreenBody extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return ref.watch(GetMostPopularProvider(period: Period.week)).when(
           data: (data) {
-            print(data);
             if (data?.results.isEmpty ?? true) {
               return Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -24,16 +24,14 @@ class HomeScreenBody extends ConsumerWidget {
                   const NoDataText(),
                   ElevatedButton(
                     onPressed: () => ref.refresh(
-                      GetMostPopularProvider(
-                        period: Period.week,
-                      ),
+                      GetMostPopularProvider(period: Period.week),
                     ),
                     child: const Text('Refresh'),
                   ),
                 ],
               );
             }
-            return ArticlesListView(articles: data!.results);
+            return const ArticlesListView();
           },
           loading: () => const AppLoadingIndicator(),
           error: (err, stack) => ErrorText(text: err.toString()),
