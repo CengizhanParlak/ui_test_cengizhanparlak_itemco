@@ -1,0 +1,1187 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/cfedee90-8b4e-5f01-9962-daa8db17512e",
+      "url": "https://www.nytimes.com/2023/07/09/us/clarence-thomas-horatio-alger-association.html",
+      "id": 100000008952422,
+      "asset_id": 100000008952422,
+      "source": "New York Times",
+      "published_date": "2023-07-09",
+      "updated": "2023-07-13 09:51:37",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Gifts to Public Officials;Ethics and Official Misconduct;High Net Worth Individuals;Awards, Decorations and Honors;Scholarships and Fellowships;Content Type: Personal Profile;audio-neutral-informative;Thomas, Clarence;Sokol, David L;Crow, Harlan;Williams, Armstrong;Supreme Court (US);Horatio Alger Assn",
+      "column": null,
+      "byline": "By Abbie VanSickle and Steve Eder",
+      "type": "Article",
+      "title": "Where Clarence Thomas Entered an Elite Circle and Opened a Door to the Court",
+      "abstract": "The exclusive Horatio Alger Association brought the justice access to wealthy members and unreported V.I.P. treatment. He, in turn, offered another kind of access.",
+      "des_facet": [
+        "Gifts to Public Officials",
+        "Ethics and Official Misconduct",
+        "High Net Worth Individuals",
+        "Awards, Decorations and Honors",
+        "Scholarships and Fellowships",
+        "Content Type: Personal Profile",
+        "audio-neutral-informative"
+      ],
+      "org_facet": ["Supreme Court (US)", "Horatio Alger Assn"],
+      "per_facet": [
+        "Thomas, Clarence",
+        "Sokol, David L",
+        "Crow, Harlan",
+        "Williams, Armstrong"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/08/multimedia/00clarence-horatio-HA4-wtkg/00clarence-horatio-HA4-wtkg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/08/multimedia/00clarence-horatio-HA4-wtkg/00clarence-horatio-HA4-wtkg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/08/multimedia/00clarence-horatio-HA4-wtkg/00clarence-horatio-HA4-wtkg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/dd10f836-2564-5e71-8027-1b77c8bc4b06",
+      "url": "https://www.nytimes.com/2023/07/11/us/politics/trump-documents-trial-postponement.html",
+      "id": 100000008990585,
+      "asset_id": 100000008990585,
+      "source": "New York Times",
+      "published_date": "2023-07-11",
+      "updated": "2023-07-12 10:17:24",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Federal Criminal Case Against Trump (Documents Case);Classified Information and State Secrets;Special Prosecutors (Independent Counsel);Presidential Election of 2024;United States Politics and Government;Trump, Donald J;Nauta, Walt;Cannon, Aileen M;Smith, Jack (Attorney)",
+      "column": null,
+      "byline": "By Alan Feuer and Maggie Haberman",
+      "type": "Article",
+      "title": "Trump Lawyers Seek Indefinite Postponement of Documents Trial",
+      "abstract": "The former president’s legal team argued in a court filing that no trial date should be set until all “substantive motions” in the case were resolved, setting up an early key decision by Judge Aileen M. Cannon.",
+      "des_facet": [
+        "Federal Criminal Case Against Trump (Documents Case)",
+        "Classified Information and State Secrets",
+        "Special Prosecutors (Independent Counsel)",
+        "Presidential Election of 2024",
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Nauta, Walt",
+        "Cannon, Aileen M",
+        "Smith, Jack (Attorney)"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Former President Donald J. Trump at a campaign rally in Council Bluffs, Iowa, on Friday.",
+          "copyright": "Jordan Gale for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11dc-trump1-blqc/11dc-trump1-blqc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11dc-trump1-blqc/11dc-trump1-blqc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11dc-trump1-blqc/11dc-trump1-blqc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/bf24f6a5-977b-5de0-89bb-4be179c79a95",
+      "url": "https://www.nytimes.com/2023/07/12/nyregion/nyc-eviction-tina-dupuy-sheila-sullivan.html",
+      "id": 100000008973406,
+      "asset_id": 100000008973406,
+      "source": "New York Times",
+      "published_date": "2023-07-12",
+      "updated": "2023-07-13 12:44:41",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Actors and Actresses;Evictions;Renting and Leasing (Real Estate);Content Type: Personal Profile;internal-sub-only;audio-neutral-informative;Sullivan, Sheila (1949- );Upper West Side (Manhattan, NY)",
+      "column": null,
+      "byline": "By Michael Wilson",
+      "type": "Article",
+      "title": "The Glamorous Stranger Next Door Knew Everyone. And She Needed Help.",
+      "abstract": "The mysterious neighbor claimed to have witnessed a nuclear detonation, marched on Selma and acted on Broadway. Would an overlooked form letter be her downfall?",
+      "des_facet": [
+        "Actors and Actresses",
+        "Evictions",
+        "Renting and Leasing (Real Estate)",
+        "Content Type: Personal Profile",
+        "internal-sub-only",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": ["Sullivan, Sheila (1949- )"],
+      "geo_facet": ["Upper West Side (Manhattan, NY)"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tina Dupuy and Sheila Sullivan in Ms. Sullivan’s Upper West Side apartment.",
+          "copyright": "Brittainy Newman for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/16/nyregion/16ny-friendship-new1/00ny-friendship-new1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/16/nyregion/16ny-friendship-new1/00ny-friendship-new1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/16/nyregion/16ny-friendship-new1/00ny-friendship-new1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/75e55947-d720-59c9-9f6a-aa9d386c2d45",
+      "url": "https://www.nytimes.com/2023/07/09/nyregion/flooding-west-point-orange-county.html",
+      "id": 100000008988553,
+      "asset_id": 100000008988553,
+      "source": "New York Times",
+      "published_date": "2023-07-09",
+      "updated": "2023-07-10 14:02:32",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Floods;Rain;Weather;Railroads;vis-video;Hochul, Kathleen C;Orange County (NY);Hudson River Valley (NY);Hudson River;New York State",
+      "column": null,
+      "byline": "By Eduardo Medina, Livia Albeck-Ripka and Jesse McKinley",
+      "type": "Article",
+      "title": "At Least 1 Dead as Heavy Rains Set Off Flash Flooding in New York",
+      "abstract": "The Hudson Valley was the most affected by the storm system on Sunday, with sections getting up to eight inches of rain, the National Weather Service said.",
+      "des_facet": ["Floods", "Rain", "Weather", "Railroads", "vis-video"],
+      "org_facet": [],
+      "per_facet": ["Hochul, Kathleen C"],
+      "geo_facet": [
+        "Orange County (NY)",
+        "Hudson River Valley (NY)",
+        "Hudson River",
+        "New York State"
+      ],
+      "media": [],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/55c3a706-25bb-56e9-a2f7-304b0cc2753b",
+      "url": "https://www.nytimes.com/interactive/2023/07/07/well/live/sleep-better-age.html",
+      "id": 100000008975663,
+      "asset_id": 100000008975663,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2023-07-10 08:21:32",
+      "section": "Well",
+      "subsection": "Live",
+      "nytdsection": "well",
+      "adx_keywords": "Sleep;Age, Chronological;Insomnia;Content Type: Service;vis-design;internal-sub-only-except-search",
+      "column": null,
+      "byline": "By Dani Blum",
+      "type": "Interactive",
+      "title": "Sleep Better at Every Age",
+      "abstract": "Sleep needs shift throughout the lifespan. Experts offer tips to get more rest — no matter how old you are.",
+      "des_facet": [
+        "Sleep",
+        "Age, Chronological",
+        "Insomnia",
+        "Content Type: Service",
+        "vis-design",
+        "internal-sub-only-except-search"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "Illustrations by Petra Eriksson",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/06/22/well/well-sleep-age-topper/well-sleep-age-topper-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/22/well/well-sleep-age-topper/well-sleep-age-topper-mediumThreeByTwo210-v4.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/22/well/well-sleep-age-topper/well-sleep-age-topper-mediumThreeByTwo440-v4.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/c29141b3-35e8-5d7e-80ce-9e132058ba8c",
+      "url": "https://www.nytimes.com/2023/07/06/technology/tom-brady-crypto-ftx.html",
+      "id": 100000008978054,
+      "asset_id": 100000008978054,
+      "source": "New York Times",
+      "published_date": "2023-07-06",
+      "updated": "2023-07-07 12:30:14",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Celebrities;Suits and Litigation (Civil);Football;Virtual Currency;Start-ups;Nonfungible Tokens (NFTs);internal-sub-only;Bankman-Fried, Sam;Brady, Tom;Bundchen, Gisele;Swift, Taylor;HK FTX Trading Ltd (Futures Exchange)",
+      "column": null,
+      "byline": "By Erin Griffith and David Yaffe-Bellany",
+      "type": "Article",
+      "title": "How Tom Brady’s Crypto Ambitions Collided With Reality",
+      "abstract": "The superstar quarterback is among the celebrities dealing with the fallout from the crypto crash. Others, like Taylor Swift, escaped.",
+      "des_facet": [
+        "Celebrities",
+        "Suits and Litigation (Civil)",
+        "Football",
+        "Virtual Currency",
+        "Start-ups",
+        "Nonfungible Tokens (NFTs)",
+        "internal-sub-only"
+      ],
+      "org_facet": ["HK FTX Trading Ltd (Futures Exchange)"],
+      "per_facet": [
+        "Bankman-Fried, Sam",
+        "Brady, Tom",
+        "Bundchen, Gisele",
+        "Swift, Taylor"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "As an FTX “ambassador,” Tom Brady appeared in a Super Bowl commercial, on billboards and at FTX’s conference in the Bahamas, promoting the start-up as “the most trusted” institution in crypto.",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/06/30/multimedia/00crypto-brady-wkzm/00crypto-brady-wkzm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/30/multimedia/00crypto-brady-wkzm/00crypto-brady-wkzm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/30/multimedia/00crypto-brady-wkzm/00crypto-brady-wkzm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/10f4ac4b-df26-508d-a59d-3eca78fb14a8",
+      "url": "https://www.nytimes.com/2023/07/06/nyregion/mayor-adams-photo-venable-fake.html",
+      "id": 100000008962237,
+      "asset_id": 100000008962237,
+      "source": "New York Times",
+      "published_date": "2023-07-06",
+      "updated": "2023-07-07 13:13:32",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Police;Politics and Government;Adams, Eric L;New York City",
+      "column": null,
+      "byline": "By Emma G. Fitzsimmons",
+      "type": "Article",
+      "title": "The Mayor Had a Photo of a Fallen Officer. Was His Story About It True?",
+      "abstract": "Mayor Eric Adams has often talked about a wrinkled photo of a fallen police officer that he kept in his wallet. Now that photo and the story have been called into question.",
+      "des_facet": ["Police", "Politics and Government"],
+      "org_facet": [],
+      "per_facet": ["Adams, Eric L"],
+      "geo_facet": ["New York City"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Mayor Eric Adams said he has long kept a photo of Officer Robert Venable in his wallet.",
+          "copyright": "An Rong Xu for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/multimedia/00ADAMS-PHOTO1-qhwz/00ADAMS-PHOTO1-qhwz-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/multimedia/00ADAMS-PHOTO1-qhwz/00ADAMS-PHOTO1-qhwz-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/multimedia/00ADAMS-PHOTO1-qhwz/00ADAMS-PHOTO1-qhwz-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/bace6200-3b13-594b-88d2-c967d916f40c",
+      "url": "https://www.nytimes.com/2023/07/07/world/europe/dutch-government-collapses.html",
+      "id": 100000008987331,
+      "asset_id": 100000008987331,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2023-07-08 11:18:09",
+      "section": "World",
+      "subsection": "Europe",
+      "nytdsection": "world",
+      "adx_keywords": "Politics and Government;Legislatures and Parliaments;Immigration and Emigration;Illegal Immigration;Asylum, Right of;Refugees and Displaced Persons;International Relations;Middle East and Africa Migrant Crisis;Rutte, Mark;European Union;People's Party for Freedom and Democracy (Netherlands);Netherlands",
+      "column": null,
+      "byline": "By Claire Moses and Dan Bilefsky",
+      "type": "Article",
+      "title": "Dutch Government Collapses Over Plan to Further Limit Immigration",
+      "abstract": "Prime Minister Mark Rutte, one of Europe’s longest-serving leaders, had struggled to reach an agreement with his coalition partners about migration, including more restrictions.",
+      "des_facet": [
+        "Politics and Government",
+        "Legislatures and Parliaments",
+        "Immigration and Emigration",
+        "Illegal Immigration",
+        "Asylum, Right of",
+        "Refugees and Displaced Persons",
+        "International Relations",
+        "Middle East and Africa Migrant Crisis"
+      ],
+      "org_facet": [
+        "European Union",
+        "People's Party for Freedom and Democracy (Netherlands)"
+      ],
+      "per_facet": ["Rutte, Mark"],
+      "geo_facet": ["Netherlands"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Prime Minister Mark Rutte is the longest-serving government leader in Dutch history.",
+          "copyright": "Robin Utrecht/EPA, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07netherlands-01a-vwfg/07netherlands-01a-vwfg-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07netherlands-01a-vwfg/07netherlands-01a-vwfg-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07netherlands-01a-vwfg/07netherlands-01a-vwfg-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/27512f29-47eb-5512-8302-a749108d62e8",
+      "url": "https://www.nytimes.com/2023/07/07/realestate/modern-farmhouse-suburbs.html",
+      "id": 100000008900757,
+      "asset_id": 100000008900757,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2023-07-09 12:32:58",
+      "section": "Real Estate",
+      "subsection": "",
+      "nytdsection": "real estate",
+      "adx_keywords": "Real Estate and Housing (Residential);Interior Design and Furnishings;Architecture;Millennial Generation;United States",
+      "column": null,
+      "byline": "By Ronda Kaysen",
+      "type": "Article",
+      "title": "The Modern Farmhouse Is Today’s McMansion. And It’s Here to Stay.",
+      "abstract": "In a divided country, a clean look and a neutral color palette is the aesthetic comforting communities around the country.",
+      "des_facet": [
+        "Real Estate and Housing (Residential)",
+        "Interior Design and Furnishings",
+        "Architecture",
+        "Millennial Generation"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["United States"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeffrey and Lauren Sachs added wood posts and beams, a tin roof, barn-style garage doors and a brick walkway to their modern farmhouse.",
+          "copyright": "Kate Glicksberg for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/07farmhouses-tcml/07farmhouses-tcml-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/07farmhouses-tcml/07farmhouses-tcml-mediumThreeByTwo210-v3.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/07farmhouses-tcml/07farmhouses-tcml-mediumThreeByTwo440-v3.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/4c58f0aa-4f64-5baa-a2df-e209666e18ed",
+      "url": "https://www.nytimes.com/2023/07/06/climate/climate-change-record-heat.html",
+      "id": 100000008984495,
+      "asset_id": 100000008984495,
+      "source": "New York Times",
+      "published_date": "2023-07-06",
+      "updated": "2023-07-07 08:37:53",
+      "section": "Climate",
+      "subsection": "",
+      "nytdsection": "climate",
+      "adx_keywords": "Heat and Heat Waves;Global Warming;Greenhouse Gas Emissions;Earth;Oceans and Seas;El Nino Southern Oscillation",
+      "column": null,
+      "byline": "By Brad Plumer and Elena Shao",
+      "type": "Article",
+      "title": "Heat Records Are Broken Around the Globe as Earth Warms, Fast",
+      "abstract": "From north to south, temperatures are surging as greenhouse gases trap heat in the atmosphere and combine with effects from El Niño.",
+      "des_facet": [
+        "Heat and Heat Waves",
+        "Global Warming",
+        "Greenhouse Gas Emissions",
+        "Earth",
+        "Oceans and Seas",
+        "El Nino Southern Oscillation"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "A woman tried to shield herself from the sun in Beijing, where temperatures reached 104 degrees Fahrenheit on Thursday.",
+          "copyright": "Andy Wong/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06cli-heatrecords-01-jfqm/06cli-heatrecords-01-jfqm-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06cli-heatrecords-01-jfqm/06cli-heatrecords-01-jfqm-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06cli-heatrecords-01-jfqm/06cli-heatrecords-01-jfqm-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/48bffd78-a475-565a-b770-874b775dab03",
+      "url": "https://www.nytimes.com/2023/07/07/us/politics/trump-kelly-irs-fbi-strozk-page.html",
+      "id": 100000008987150,
+      "asset_id": 100000008987150,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2023-07-08 12:42:43",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Russian Interference in 2016 US Elections and Ties to Trump Associates;Kelly, John F (1950- );Trump, Donald J;Page, Lisa (1979- );Strzok, Peter;Federal Bureau of Investigation;Internal Revenue Service;Justice Department",
+      "column": null,
+      "byline": "By Michael S. Schmidt",
+      "type": "Article",
+      "title": "Trump Asked About I.R.S. Inquiry of F.B.I. Officials, Ex-Aide Says Under Oath",
+      "abstract": "In a court filing, John Kelly, who was a chief of staff under Donald Trump, said the former president had asked about having the tax agency look into Peter Strzok and Lisa Page.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Russian Interference in 2016 US Elections and Ties to Trump Associates"
+      ],
+      "org_facet": [
+        "Federal Bureau of Investigation",
+        "Internal Revenue Service",
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Kelly, John F (1950- )",
+        "Trump, Donald J",
+        "Page, Lisa (1979- )",
+        "Strzok, Peter"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "John Kelly, a former White House chief of staff, in 2018.",
+          "copyright": "Doug Mills/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07dc-trump-irs-vqpc/07dc-trump-irs-vqpc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07dc-trump-irs-vqpc/07dc-trump-irs-vqpc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/07/multimedia/07dc-trump-irs-vqpc/07dc-trump-irs-vqpc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f71b75ac-b843-53f8-ba9f-cafa4ad5c187",
+      "url": "https://www.nytimes.com/2023/07/10/business/media/the-new-york-times-sports-department.html",
+      "id": 100000008988601,
+      "asset_id": 100000008988601,
+      "source": "New York Times",
+      "published_date": "2023-07-10",
+      "updated": "2023-07-11 11:22:50",
+      "section": "Business",
+      "subsection": "Media",
+      "nytdsection": "business",
+      "adx_keywords": "Athletics and Sports;News and News Media;Newspapers;Sulzberger, A G;Kahn, Joseph;New York Times;Athletic Media Co",
+      "column": null,
+      "byline": "By Katie Robertson and John Koblin",
+      "type": "Article",
+      "title": "The New York Times to Disband Its Sports Department",
+      "abstract": "Coverage of games, players and leagues will now come primarily from The Athletic, the sports website that the company bought last year.",
+      "des_facet": [
+        "Athletics and Sports",
+        "News and News Media",
+        "Newspapers"
+      ],
+      "org_facet": ["New York Times", "Athletic Media Co"],
+      "per_facet": ["Sulzberger, A G", "Kahn, Joseph"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Journalists on The New York Times’s sports desk will move to other roles in the newsroom and no layoffs are planned.",
+          "copyright": "Sasha Maslov for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/multimedia/00gannett-1-mkwj/00gannett-1-mkwj-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/multimedia/00gannett-1-mkwj/00gannett-1-mkwj-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/multimedia/00gannett-1-mkwj/00gannett-1-mkwj-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/58b0fd38-26c2-5cf6-8c21-022a77dcd109",
+      "url": "https://www.nytimes.com/2023/07/11/arts/music/aretha-franklin-will-couch.html",
+      "id": 100000008991187,
+      "asset_id": 100000008991187,
+      "source": "New York Times",
+      "published_date": "2023-07-11",
+      "updated": "2023-07-11 23:03:15",
+      "section": "Arts",
+      "subsection": "Music",
+      "nytdsection": "arts",
+      "adx_keywords": "Decisions and Verdicts;Wills and Estates;Pop and Rock Music;Franklin, Aretha",
+      "column": null,
+      "byline": "By Ben Sisario and Ryan Patrick Hooper",
+      "type": "Article",
+      "title": "Four Pages Found in a Couch Are Ruled Aretha Franklin’s True Will",
+      "abstract": "In deciding a family dispute over her estate, a jury in Michigan ruled that a handwritten document found in a couch at Franklin’s home after her death represented her last wishes.",
+      "des_facet": [
+        "Decisions and Verdicts",
+        "Wills and Estates",
+        "Pop and Rock Music"
+      ],
+      "org_facet": [],
+      "per_facet": ["Franklin, Aretha"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "After Aretha Franklin died in 2018, her family believed she had no will. But months later, in May 2019, two handwritten documents were found at her home in suburban Detroit.",
+          "copyright": "Carlos Osorio/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11aretha-trial-alert1/11aretha-trial-alert1-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11aretha-trial-alert1/11aretha-trial-alert1-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/11/multimedia/11aretha-trial-alert1/11aretha-trial-alert1-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/e9474a3b-d6b5-5cac-9f41-d711878984f4",
+      "url": "https://www.nytimes.com/2023/07/08/business/uri-geller-magic-deep-fakes.html",
+      "id": 100000008937145,
+      "asset_id": 100000008937145,
+      "source": "New York Times",
+      "published_date": "2023-07-08",
+      "updated": "2023-07-10 15:50:08",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Magic and Magicians;Utensils and Cutlery;Museums;Occult Sciences;Celebrities;Content Type: Personal Profile;Artificial Intelligence;audio-neutral-immersive;internal-sub-only;Geller, Uri;Great Britain;Israel",
+      "column": null,
+      "byline": "By David Segal",
+      "type": "Article",
+      "title": "The End of the Magic World’s 50-Year Grudge",
+      "abstract": "In 1973, Uri Geller claimed to bend metal with his mind on live television. Skeptics couldn’t beat him. Now they’ve joined him.",
+      "des_facet": [
+        "Magic and Magicians",
+        "Utensils and Cutlery",
+        "Museums",
+        "Occult Sciences",
+        "Celebrities",
+        "Content Type: Personal Profile",
+        "Artificial Intelligence",
+        "audio-neutral-immersive",
+        "internal-sub-only"
+      ],
+      "org_facet": [],
+      "per_facet": ["Geller, Uri"],
+      "geo_facet": ["Great Britain", "Israel"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uri Geller became a global celebrity and the living embodiment of the hope that there was something more, something science couldn’t explain.",
+          "copyright": "Kenji Aoki for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00Geller-lede-gzhv/00Geller-lede-gzhv-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00Geller-lede-gzhv/00Geller-lede-gzhv-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00Geller-lede-gzhv/00Geller-lede-gzhv-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/bd434746-42cc-5521-8fbb-5b44f8d782ed",
+      "url": "https://www.nytimes.com/2023/07/11/us/leslie-van-houten-charles-manson-parole.html",
+      "id": 100000008988547,
+      "asset_id": 100000008988547,
+      "source": "New York Times",
+      "published_date": "2023-07-11",
+      "updated": "2023-07-11 23:02:59",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Murders, Attempted Murders and Homicides;Probation and Parole;Governors (US);Van Houten, Leslie;Manson, Charles;Newsom, Gavin;California",
+      "column": null,
+      "byline": "By Derrick Bryson Taylor",
+      "type": "Article",
+      "title": "Former Manson Family Member Leslie Van Houten Is Released on Parole",
+      "abstract": "At the direction of Charles Manson, Ms. Van Houten participated in the murder of a California couple in 1969. She was initially sentenced to death.",
+      "des_facet": [
+        "Murders, Attempted Murders and Homicides",
+        "Probation and Parole",
+        "Governors (US)"
+      ],
+      "org_facet": [],
+      "per_facet": ["Van Houten, Leslie", "Manson, Charles", "Newsom, Gavin"],
+      "geo_facet": ["California"],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Leslie Van Houten attends a parole hearing at the California Institution for Women in 2017.",
+          "copyright": "Pool photo by Stan Lim",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00xp-houten-hfo1-vpzk/00xp-houten-hfo1-vpzk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00xp-houten-hfo1-vpzk/00xp-houten-hfo1-vpzk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/09/multimedia/00xp-houten-hfo1-vpzk/00xp-houten-hfo1-vpzk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6db733e6-9715-5243-b5ff-b4f0fd059fb8",
+      "url": "https://www.nytimes.com/2023/07/05/technology/threads-app-meta-twitter-killer.html",
+      "id": 100000008983181,
+      "asset_id": 100000008983181,
+      "source": "New York Times",
+      "published_date": "2023-07-05",
+      "updated": "2023-07-06 12:44:46",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Social Media;Mobile Applications;Zuckerberg, Mark E;Mosseri, Adam;Musk, Elon;Threads (Mobile App);Meta Platforms Inc;Instagram Inc;Twitter",
+      "column": null,
+      "byline": "By Mike Isaac",
+      "type": "Article",
+      "title": "Threads, Instagram’s ‘Twitter Killer,’ Has Arrived",
+      "abstract": "Here’s what to know about Instagram’s new app for public conversations and how it differs from Twitter.",
+      "des_facet": ["Social Media", "Mobile Applications"],
+      "org_facet": [
+        "Threads (Mobile App)",
+        "Meta Platforms Inc",
+        "Instagram Inc",
+        "Twitter"
+      ],
+      "per_facet": ["Zuckerberg, Mark E", "Mosseri, Adam", "Musk, Elon"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Users of Threads, which Instagram unveiled on Wednesday, will be able to directly import the list of people they follow on Instagram to the new app. ",
+          "copyright": "via Meta",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/business/06instagram-05/06instagram-05-thumbStandard.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/business/06instagram-05/06instagram-05-mediumThreeByTwo210.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/business/06instagram-05/06instagram-05-mediumThreeByTwo440.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/56e1b35b-2608-5dbe-8816-459b42cf9e7d",
+      "url": "https://www.nytimes.com/2023/07/07/travel/national-parks-attractions.html",
+      "id": 100000008976102,
+      "asset_id": 100000008976102,
+      "source": "New York Times",
+      "published_date": "2023-07-07",
+      "updated": "2023-07-09 13:48:14",
+      "section": "Travel",
+      "subsection": "",
+      "nytdsection": "travel",
+      "adx_keywords": "internal-open-access-from-nl;Travel and Vacations;National Parks, Monuments and Seashores;Hikes and Hiking;Camps and Camping;Pictured Rocks National Lakeshore (Mich);Cumberland Gap National Historical Park;Dinosaur National Monument (Utah);Chiricahua National Monument (AZ);Point Reyes National Seashore (Calif)",
+      "column": null,
+      "byline": "By Lauren Sloss",
+      "type": "Article",
+      "title": "5 National Park Destinations That Aren’t Parks",
+      "abstract": "The National Park Service isn’t just the 63 big-name parks. Here are national monuments, a lakeshore and two other less crowded alternatives to explore the country’s natural beauty and attractions.",
+      "des_facet": [
+        "internal-open-access-from-nl",
+        "Travel and Vacations",
+        "National Parks, Monuments and Seashores",
+        "Hikes and Hiking",
+        "Camps and Camping"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Pictured Rocks National Lakeshore (Mich)",
+        "Cumberland Gap National Historical Park",
+        "Dinosaur National Monument (Utah)",
+        "Chiricahua National Monument (AZ)",
+        "Point Reyes National Seashore (Calif)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Stephen Hiltner/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/travel/travel-nps-alts-promo/travel-nps-alts-promo-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/travel/travel-nps-alts-promo/travel-nps-alts-still-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/05/travel/travel-nps-alts-promo/travel-nps-alts-still-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/785e1b8e-6f28-5aca-974e-bd25e0a39951",
+      "url": "https://www.nytimes.com/2023/07/06/technology/threads-downloads-twitter.html",
+      "id": 100000008984891,
+      "asset_id": 100000008984891,
+      "source": "New York Times",
+      "published_date": "2023-07-06",
+      "updated": "2023-07-07 12:28:39",
+      "section": "Technology",
+      "subsection": "",
+      "nytdsection": "technology",
+      "adx_keywords": "Mobile Applications;Social Media;Computers and the Internet;Suits and Litigation (Civil);Zuckerberg, Mark E;Musk, Elon;Threads (Mobile App);Twitter;Instagram Inc;Meta Platforms Inc",
+      "column": null,
+      "byline": "By Mike Isaac",
+      "type": "Article",
+      "title": "Threads Becomes Most Rapidly Downloaded App, Raising Twitter’s Ire",
+      "abstract": "Instagram’s new app was downloaded more than 30 million times in 16 hours. Twitter threatened legal action against its rival.",
+      "des_facet": [
+        "Mobile Applications",
+        "Social Media",
+        "Computers and the Internet",
+        "Suits and Litigation (Civil)"
+      ],
+      "org_facet": [
+        "Threads (Mobile App)",
+        "Twitter",
+        "Instagram Inc",
+        "Meta Platforms Inc"
+      ],
+      "per_facet": ["Zuckerberg, Mark E", "Musk, Elon"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Threads was a surprise hit for Meta, which owns Facebook and Instagram and is badly in need of a win after being scrutinized for spreading misinformation and other toxic content across the internet.",
+          "copyright": "Cristobal Herrera-Ulashkevich/EPA, via Shutterstock",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06threads-qljw/06threads-qljw-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06threads-qljw/06threads-qljw-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/06/multimedia/06threads-qljw/06threads-qljw-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/6c93c5c6-254a-56da-b9ef-2a2c0c28d7ef",
+      "url": "https://www.nytimes.com/2023/07/10/science/titan-submersible-map-titanic.html",
+      "id": 100000008989939,
+      "asset_id": 100000008989939,
+      "source": "New York Times",
+      "published_date": "2023-07-10",
+      "updated": "2023-07-11 16:01:49",
+      "section": "Science",
+      "subsection": "",
+      "nytdsection": "science",
+      "adx_keywords": "Maps;Submarines and Submersibles;Titanic (Ship);Shipwrecks (Historic);Maritime Accidents and Safety;Salvage;your-feed-science;internal-sub-only-except-search;Nargeolet, Paul-Henri (1946-2023);RMS Titanic Inc;OceanGate Expeditions (Argus Expeditions Ltd)",
+      "column": null,
+      "byline": "By William J. Broad",
+      "type": "Article",
+      "title": "New Map Shows Titan Submersible Debris’s Proximity to Titanic Wreck",
+      "abstract": "The map, released in a legal filing by a company with salvage rights to the famous ship, aided the hunt for the missing craft.",
+      "des_facet": [
+        "Maps",
+        "Submarines and Submersibles",
+        "Titanic (Ship)",
+        "Shipwrecks (Historic)",
+        "Maritime Accidents and Safety",
+        "Salvage",
+        "your-feed-science",
+        "internal-sub-only-except-search"
+      ],
+      "org_facet": [
+        "RMS Titanic Inc",
+        "OceanGate Expeditions (Argus Expeditions Ltd)"
+      ],
+      "per_facet": ["Nargeolet, Paul-Henri (1946-2023)"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The map shows how close the Titan submersible was to the Titanic debris field.",
+          "copyright": "RMS Titanic Inc.",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/science/00titan-sub/00titan-sub-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/science/00titan-sub/00titan-sub-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/07/10/science/00titan-sub/00titan-sub-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/fd117c6a-a3a3-59e7-9703-2d3f071acd3c",
+      "url": "https://www.nytimes.com/2023/07/10/business/media/fox-news-defamation-ray-epps-tucker-carlson.html",
+      "id": 100000008937297,
+      "asset_id": 100000008937297,
+      "source": "New York Times",
+      "published_date": "2023-07-10",
+      "updated": "2023-07-10 10:01:52",
+      "section": "Business",
+      "subsection": "Media",
+      "nytdsection": "business",
+      "adx_keywords": "Television;Libel and Slander;Storming of the US Capitol (Jan, 2021);News and News Media;Suits and Litigation (Civil);Rumors and Misinformation;Conspiracy Theories;Fringe Groups and Movements;Right-Wing Extremism and Alt-Right;Carlson, Tucker;Epps, Ray (1961- );Federal Bureau of Investigation;Fox News Channel;Fox Corporation;Dominion Voting Systems Corp",
+      "column": null,
+      "byline": "By Jeremy W. Peters and Alan Feuer",
+      "type": "Article",
+      "title": "The Case That Could Be Fox’s Next Dominion",
+      "abstract": "Tucker Carlson, before he was sidelined by Fox, repeatedly endorsed a conspiracy theory about an Arizona man, who may sue for defamation. Legal experts say it would be a viable case.",
+      "des_facet": [
+        "Television",
+        "Libel and Slander",
+        "Storming of the US Capitol (Jan, 2021)",
+        "News and News Media",
+        "Suits and Litigation (Civil)",
+        "Rumors and Misinformation",
+        "Conspiracy Theories",
+        "Fringe Groups and Movements",
+        "Right-Wing Extremism and Alt-Right"
+      ],
+      "org_facet": [
+        "Federal Bureau of Investigation",
+        "Fox News Channel",
+        "Fox Corporation",
+        "Dominion Voting Systems Corp"
+      ],
+      "per_facet": ["Carlson, Tucker", "Epps, Ray (1961- )"],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Ray and Robyn Epps in an undisclosed location last year.",
+          "copyright": "Alan Feuer/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/06/12/multimedia/00fox-epps-fkzl/00fox-epps-fkzl-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/12/multimedia/00fox-epps-fkzl/00fox-epps-fkzl-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/06/12/multimedia/00fox-epps-fkzl/00fox-epps-fkzl-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
