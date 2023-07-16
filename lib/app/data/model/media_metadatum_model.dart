@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:ui_test_cengizhanparlak/app/model/most_popular_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 
-import 'package:ui_test_cengizhanparlak/app/constant/enums/format_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/format_enum.dart';
 
 class MediaMetadatum {
   MediaMetadatum({

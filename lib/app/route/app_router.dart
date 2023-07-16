@@ -2,7 +2,7 @@
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/article/article_screen.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/home_screen.dart';
 

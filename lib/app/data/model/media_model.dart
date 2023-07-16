@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:ui_test_cengizhanparlak/app/constant/enums/media_type_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/constant/enums/subtype_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/model/media_metadatum_model.dart';
-import 'package:ui_test_cengizhanparlak/app/model/most_popular_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/media_type_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/subtype_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/media_metadatum_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 
 class Media {
   Media({

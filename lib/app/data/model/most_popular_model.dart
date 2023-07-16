@@ -6,13 +6,13 @@
 
 import 'dart:convert';
 
-import 'package:ui_test_cengizhanparlak/app/constant/enums/format_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/constant/enums/media_type_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/constant/enums/result_type_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/constant/enums/source_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/constant/enums/subtype_enum.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
-import 'package:ui_test_cengizhanparlak/app/model/enum_values_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/format_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/media_type_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/result_type_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/source_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/subtype_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/enum_values_model.dart';
 
 class MostPopular {
   MostPopular({
