@@ -10,35 +10,44 @@ class ArticlesService extends ChangeNotifier {
   final List<Article> articles = [];
   final List<Article> filteredArticles = [];
 
-  Article? article;
-
   TextEditingController nameController = TextEditingController();
+  SortType _sortType = SortType.DATE_DESC;
 
   bool get isTextEmpty => nameController.text.isEmpty;
-
   String get query => nameController.text;
+  SortType get sortType => _sortType;
+
+  void switchSort() {
+    _sortType = _sortType.isAsc ? SortType.DATE_DESC : SortType.DATE_ASC;
+    _sortArticles();
+  }
 
   void addArticles(List<Article> fetchedArticles) {
     articles
       ..clear()
       ..addAll(fetchedArticles);
-    sortArticles();
-    filter();
+    _sortArticles();
+    _filter();
     notifyListeners();
   }
 
-  void sortArticles() {
-    if (articles.isEmpty) return;
-    articles.sort((a, b) {
+  void _sortArticles() {
+    if (filteredArticles.isEmpty) {
+      return;
+    }
+    filteredArticles.sort((a, b) {
+      if (sortType == SortType.DATE_ASC) {
+        return a.publishedDate.compareTo(b.publishedDate);
+      }
       return b.publishedDate.compareTo(a.publishedDate);
     });
     notifyListeners();
   }
 
-  void filter() {
+  void _filter() {
     filteredArticles.clear();
     if (nameController.text.isEmpty) {
-      disableFilter();
+      _disableFilter();
       return;
     }
     filteredArticles.addAll(
@@ -54,13 +63,22 @@ class ArticlesService extends ChangeNotifier {
     notifyListeners();
   }
 
-  void disableFilter() {
+  void _disableFilter() {
     filteredArticles.addAll(articles);
     notifyListeners();
   }
 
   void clearText() {
     nameController.clear();
-    disableFilter();
+    _disableFilter();
   }
+}
+
+enum SortType {
+  DATE_ASC,
+  DATE_DESC;
+
+  bool get isAsc => this == DATE_ASC;
+
+  bool get isDesc => this == DATE_DESC;
 }

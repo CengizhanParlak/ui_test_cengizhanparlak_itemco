@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/paddings.dart';
+import 'package:ui_test_cengizhanparlak/app/service/articles_service.dart';
 
 class HomeScreenAppBar extends ConsumerWidget {
   const HomeScreenAppBar({required this.title, super.key});
@@ -25,15 +26,28 @@ class HomeScreenAppBar extends ConsumerWidget {
           },
           icon: const Icon(Icons.search),
         ),
-        IconButton(
-          onPressed: () {
-            /// TODO: @CengizhanParlak, 14.07.2023; impl sort by publish date
-          },
-          icon: const Icon(
-            Icons.more_vert_rounded,
-          ),
-        ),
+        const SortButton(),
       ],
+    );
+  }
+}
+
+class SortButton extends ConsumerWidget {
+  const SortButton({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final sortType =
+        ref.watch(articlesServiceProvider.select((value) => value.sortType));
+    return IconButton(
+      onPressed: () {
+        ref.read(articlesServiceProvider.notifier).switchSort();
+      },
+      icon: Icon(
+        sortType.isAsc ? Icons.arrow_upward : Icons.arrow_downward,
+      ),
     );
   }
 }
