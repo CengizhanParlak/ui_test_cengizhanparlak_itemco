@@ -3,14 +3,13 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/app_info.dart';
-import 'package:ui_test_cengizhanparlak/app/controller/language_controller.dart';
+import 'package:ui_test_cengizhanparlak/app/service/init_service.dart';
+import 'package:ui_test_cengizhanparlak/app/service/language_service.dart';
 import 'package:ui_test_cengizhanparlak/app/controller/theme_controller.dart';
 import 'package:ui_test_cengizhanparlak/app/route/app_router.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
-  EasyLocalization.logger.enableBuildModes = [];
+  await init();
   runApp(const NYTimesApp());
 }
 
@@ -21,10 +20,11 @@ class NYTimesApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ProviderScope(
       child: EasyLocalization(
-        supportedLocales: LanguageController.supportedLocales,
-        path: LanguageController.langsPath,
-        startLocale: LanguageController.enLocale,
-        fallbackLocale: LanguageController.enLocale,
+        supportedLocales: LanguageService.supportedLocales,
+        path: LanguageService.langsPath,
+        startLocale: LanguageService.enLocale,
+        fallbackLocale: LanguageService.enLocale,
+        saveLocale: true,
         useOnlyLangCode: true,
         child: const AppStart(),
       ),
