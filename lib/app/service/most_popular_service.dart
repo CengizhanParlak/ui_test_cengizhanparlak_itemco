@@ -1,50 +1,25 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
+import 'package:flutter/foundation.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
+import 'package:ui_test_cengizhanparlak/app/repository/most_popular_repository.dart';
+import 'package:ui_test_cengizhanparlak/app/service/articles_service.dart';
 
-final mostPopularServiceProvider =
-    ChangeNotifierProvider<MostPopularService>((ref) {
-  return MostPopularService();
-});
+part 'most_popular_service.g.dart';
 
-class MostPopularService extends ChangeNotifier {
-  final List<Article> articles = [];
-  final List<Article> filteredArticles = [];
-
-  Article? article;
-
-  TextEditingController nameController = TextEditingController();
-
-  bool get isTextEmpty => nameController.text.isEmpty;
-
-  String get query => nameController.text;
-
-  void filter() {
-    filteredArticles.clear();
-    if (nameController.text.isEmpty) {
-      disableFilter();
-      return;
-    }
-    // filteredArticles.addAll(
-    //   articles.where((user) {
-    //     return user.name
-    //             .toLowerCase()
-    //             .contains(nameController.text.toLowerCase()) ||
-    //         user.company.catchPhrase
-    //             .toLowerCase()
-    //             .contains(nameController.text.toLowerCase());
-    //   }),
-    // );
-    notifyListeners();
-  }
-
-  void disableFilter() {
-    filteredArticles.clear();
-    notifyListeners();
-  }
-
-  void clearText() {
-    nameController.clear();
-    disableFilter();
+@riverpod
+Future<MostPopular?> getMostPopular(
+  GetMostPopularRef ref, {
+  required Period period,
+}) async {
+  try {
+    final mostPopularRepo = ref.read(mostPopularRepoProvider);
+    final mostPopular = await mostPopularRepo.getMostPopular(period: period);
+    ref.read(articlesServiceProvider).addArticles(mostPopular?.results ?? []);
+    return mostPopular;
+  } catch (e, s) {
+    debugPrint(e.toString());
+    debugPrint(s.toString());
+    return null;
   }
 }
