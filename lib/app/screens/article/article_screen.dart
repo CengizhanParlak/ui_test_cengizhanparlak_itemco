@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/paddings.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/article_tile_leading_image.dart';
 import 'package:ui_test_cengizhanparlak/core/utils/extensions/context_extension.dart';
 import 'package:ui_test_cengizhanparlak/core/utils/extensions/datetime_extension.dart';

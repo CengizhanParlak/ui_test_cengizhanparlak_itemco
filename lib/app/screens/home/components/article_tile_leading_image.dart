@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/article_tile_no_image_container.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_cached_network_image.dart';
 
