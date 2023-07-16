@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/app_info.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/colors.dart';
-import 'package:ui_test_cengizhanparlak/app/controller/language_controller.dart';
+import 'package:ui_test_cengizhanparlak/app/service/language_service.dart';
 import 'package:ui_test_cengizhanparlak/app/controller/theme_controller.dart';
 import 'package:ui_test_cengizhanparlak/core/utils/extensions/context_extension.dart';
 
@@ -33,14 +33,14 @@ class AppDrawer extends ConsumerWidget {
             title: const Text('Türkçe'),
             trailing: const Text('🇹🇷', style: TextStyle(fontSize: 24)),
             onTap: () async {
-              await changeLocale(context, LanguageController.trLocale);
+              await changeLocale(context, LanguageService.trLocale);
             },
           ),
           ListTile(
             title: const Text('English'),
             trailing: const Text('🇺🇸', style: TextStyle(fontSize: 24)),
             onTap: () async {
-              await changeLocale(context, LanguageController.enLocale);
+              await changeLocale(context, LanguageService.enLocale);
             },
           ),
           SwitchListTile.adaptive(
@@ -57,11 +57,9 @@ class AppDrawer extends ConsumerWidget {
   }
 
   Future<void> changeLocale(BuildContext context, Locale locale) async {
-    // final language = locale.languageCode.tr();
-    // final toastMessage = LocaleKeys.languageChanged.tr(args: [language]);
+    LanguageService.appLocale = locale;
     await context.setLocale(locale).then((value) {
       Scaffold.of(context).closeDrawer();
     });
-    // showToast(toastMessage);
   }
 }
