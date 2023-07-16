@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/app_info.dart';
 import 'package:ui_test_cengizhanparlak/app/controller/language_controller.dart';
 import 'package:ui_test_cengizhanparlak/app/controller/theme_controller.dart';
-import 'package:ui_test_cengizhanparlak/app/screens/home/home_screen.dart';
+import 'package:ui_test_cengizhanparlak/app/route/app_router.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,7 +39,7 @@ class AppStart extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: AppInfo.appName,
       theme: ref.watch(themeProvider).theme,
       debugShowCheckedModeBanner: false,
@@ -47,8 +47,7 @@ class AppStart extends ConsumerWidget {
       supportedLocales: context.supportedLocales,
       localizationsDelegates: context.localizationDelegates,
       builder: BotToastInit(),
-      navigatorObservers: [BotToastNavigatorObserver()],
-      home: const HomeScreen(),
+      routerConfig: appRouter,
     );
   }
 }
