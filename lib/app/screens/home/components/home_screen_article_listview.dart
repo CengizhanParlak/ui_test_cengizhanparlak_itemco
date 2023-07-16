@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/paddings.dart';
-import 'package:ui_test_cengizhanparlak/app/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/screens/home/components/home_screen_article_tile.dart';
 
 class ArticlesListView extends StatelessWidget {

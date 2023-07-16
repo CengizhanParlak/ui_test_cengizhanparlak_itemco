@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/paddings.dart';
-import 'package:ui_test_cengizhanparlak/app/widgets/translated_text.dart';
-import 'package:ui_test_cengizhanparlak/generated/locale_keys.g.dart';
 
 class HomeScreenAppBar extends ConsumerWidget {
-  const HomeScreenAppBar({super.key});
+  const HomeScreenAppBar({required this.title, super.key});
+
+  final String title;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -17,7 +17,7 @@ class HomeScreenAppBar extends ConsumerWidget {
         },
         icon: const Icon(Icons.menu),
       ),
-      title: TranslatedText(LocaleKeys.mostPopularText),
+      title: Text(title),
       actions: [
         IconButton(
           onPressed: () {
