@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 extension AppColors on Colors {
-  static const lightGray = Color(0xFF636363);
+  static const lightGray = Color(0xFFF2F2F2);
+  static const gray = Color(0xFF636363);
   static const darkGray = Color(0xFF3D3D3D);
   static const white = Color(0xFFFFFFFF);
   static const semiWhite = Color(0xFFF2F2F2);

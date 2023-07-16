@@ -82,7 +82,7 @@ class ThemeController extends ChangeNotifier {
         titleMedium: soraFont.copyWith(
           fontSize: 11,
           fontWeight: FontWeight.w400,
-          color: AppColors.lightGray,
+          color: AppColors.gray,
         ),
         labelSmall: soraFont.copyWith(
           fontSize: 11,
@@ -91,8 +91,10 @@ class ThemeController extends ChangeNotifier {
         ),
       ),
       dividerTheme: const DividerThemeData(
+        color: AppColors.gray,
         thickness: 1,
-        color: AppColors.greenLight,
+        indent: 16,
+        endIndent: 16,
       ),
       colorScheme: ColorScheme.fromSwatch().copyWith(
         secondary: Colors.black,
@@ -180,8 +182,10 @@ class ThemeController extends ChangeNotifier {
         ),
       ),
       dividerTheme: const DividerThemeData(
+        color: AppColors.lightGray,
         thickness: 1,
-        color: AppColors.greenLight,
+        indent: 16,
+        endIndent: 16,
       ),
       colorScheme: ColorScheme.fromSwatch().copyWith(
         brightness: Brightness.dark,
@@ -189,10 +193,10 @@ class ThemeController extends ChangeNotifier {
         onSecondary: AppColors.white,
       ),
       inputDecorationTheme: InputDecorationTheme(
-        prefixIconColor: AppColors.lightGray,
+        prefixIconColor: AppColors.gray,
         hintStyle: soraFont.copyWith(
           fontSize: 16,
-          color: AppColors.lightGray,
+          color: AppColors.gray,
         ),
         border: const OutlineInputBorder(
           borderRadius: BorderRadius.all(
