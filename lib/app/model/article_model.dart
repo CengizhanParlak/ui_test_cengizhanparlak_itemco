@@ -171,4 +171,6 @@ class Article {
         'media': List<dynamic>.from(media.map((x) => x.toJson())),
         'eta_id': etaId,
       };
+
+  bool get hasImage => media.firstOrNull?.mediaMetadata.firstOrNull != null;
 }
