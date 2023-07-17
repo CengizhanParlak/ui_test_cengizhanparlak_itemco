@@ -2,7 +2,7 @@
 
 ## Requirements
 
-Business Requirements
+Business Requirements.
 
 User Story 1: As a customer, I want to view a list of most popular news articles for the last 7 Days. Acceptance Criteria:
 
