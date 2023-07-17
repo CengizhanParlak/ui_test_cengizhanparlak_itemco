@@ -6,7 +6,7 @@ part of 'most_popular_service.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$getMostPopularHash() => r'61f653b9d2ca7cfe5ba7febc6fb4dd70b7c15ee0';
+String _$getMostPopularHash() => r'2f91306b5bedee2e665946bf2186d5b0e67a56b3';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -29,14 +29,16 @@ class _SystemHash {
   }
 }
 
-typedef GetMostPopularRef = AutoDisposeFutureProviderRef<MostPopular?>;
+typedef GetMostPopularRef
+    = AutoDisposeFutureProviderRef<Either<ApiError, MostPopular?>>;
 
 /// See also [getMostPopular].
 @ProviderFor(getMostPopular)
 const getMostPopularProvider = GetMostPopularFamily();
 
 /// See also [getMostPopular].
-class GetMostPopularFamily extends Family<AsyncValue<MostPopular?>> {
+class GetMostPopularFamily
+    extends Family<AsyncValue<Either<ApiError, MostPopular?>>> {
   /// See also [getMostPopular].
   const GetMostPopularFamily();
 
@@ -74,7 +76,8 @@ class GetMostPopularFamily extends Family<AsyncValue<MostPopular?>> {
 }
 
 /// See also [getMostPopular].
-class GetMostPopularProvider extends AutoDisposeFutureProvider<MostPopular?> {
+class GetMostPopularProvider
+    extends AutoDisposeFutureProvider<Either<ApiError, MostPopular?>> {
   /// See also [getMostPopular].
   GetMostPopularProvider({
     required this.period,

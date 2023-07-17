@@ -19,7 +19,9 @@ class ArticleTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () => appRouter.goNamed('article', extra: article),
+      onTap: () {
+        appRouter.goNamed('article', extra: article); // [article_screen.dart]
+      },
       child: ListTile(
         leading: ArticleImage(article: article),
         title: Column(

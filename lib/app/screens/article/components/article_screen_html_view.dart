@@ -4,6 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:ui_test_cengizhanparlak/app/repository/article_repository.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_error_text.dart';
 import 'package:ui_test_cengizhanparlak/app/widgets/app_loading_indicator.dart';
+import 'package:ui_test_cengizhanparlak/app/widgets/no_data_text.dart';
 
 class ArticleScreenHTMLView extends ConsumerWidget {
   const ArticleScreenHTMLView(this.url, {super.key});
@@ -13,21 +14,31 @@ class ArticleScreenHTMLView extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return ref.watch(GetArticleProvider(url: url)).when(
-          data: (data) {
-            if (data?.isEmpty ?? true) {
-              return Column(
-                children: [
-                  const ErrorText(text: 'No data found'),
-                  ElevatedButton(
-                    onPressed: () => ref.refresh(
+          data: (result) {
+            return result.fold(
+              (left) {
+                return ErrorText(
+                  text: left.errorType.message,
+                  refresh: () {
+                    return ref.refresh(
                       GetArticleProvider(url: url),
-                    ),
-                    child: const Text('Refresh'),
-                  ),
-                ],
-              );
-            }
-            return SingleChildScrollView(child: Html(data: data));
+                    );
+                  },
+                );
+              },
+              (right) {
+                if (right?.isEmpty ?? true) {
+                  return NoDataText(
+                    refresh: () {
+                      return ref.refresh(
+                        GetArticleProvider(url: url),
+                      );
+                    },
+                  );
+                }
+                return SingleChildScrollView(child: Html(data: right));
+              },
+            );
           },
           error: (e, s) => ErrorText(text: e.toString()),
           loading: AppLoadingIndicator.new,

@@ -5,7 +5,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:mocktail/mocktail.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/endpoints.dart';
+import 'package:ui_test_cengizhanparlak/app/data/enums/api_error_type_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/api_error_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/api_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
@@ -45,6 +47,7 @@ void main() {
           http.Response('[]', 200),
         );
       });
+      print('comes here ');
       final mostPopular = await mostPopularRepository.getMostPopular(
         period: Period.week,
       );

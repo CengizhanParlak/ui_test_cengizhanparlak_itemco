@@ -6,7 +6,7 @@ part of 'article_repository.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$getArticleHash() => r'660e58b4ae83ee768cf2f9036aab25cc18f03081';
+String _$getArticleHash() => r'538e9b6fff804f35b791e66449662ffea6c71a23';
 
 /// Copied from Dart SDK
 class _SystemHash {
@@ -29,14 +29,14 @@ class _SystemHash {
   }
 }
 
-typedef GetArticleRef = AutoDisposeFutureProviderRef<String?>;
+typedef GetArticleRef = AutoDisposeFutureProviderRef<Either<ApiError, String?>>;
 
 /// See also [getArticle].
 @ProviderFor(getArticle)
 const getArticleProvider = GetArticleFamily();
 
 /// See also [getArticle].
-class GetArticleFamily extends Family<AsyncValue<String?>> {
+class GetArticleFamily extends Family<AsyncValue<Either<ApiError, String?>>> {
   /// See also [getArticle].
   const GetArticleFamily();
 
@@ -74,7 +74,8 @@ class GetArticleFamily extends Family<AsyncValue<String?>> {
 }
 
 /// See also [getArticle].
-class GetArticleProvider extends AutoDisposeFutureProvider<String?> {
+class GetArticleProvider
+    extends AutoDisposeFutureProvider<Either<ApiError, String?>> {
   /// See also [getArticle].
   GetArticleProvider({
     required this.url,

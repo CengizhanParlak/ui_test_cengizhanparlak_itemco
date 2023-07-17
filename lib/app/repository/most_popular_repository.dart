@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:either_dart/either.dart';
-import 'package:equatable/equatable.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/endpoints.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/api_error_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/api_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 import 'package:http/http.dart' as http;
@@ -55,37 +55,14 @@ class MostPopularRepoImpl implements MostPopularRepository {
     } else {
       final statusCode = response.statusCode;
       if (statusCode == 401) {
-        return const Left(
-          ApiError(errorType: ApiErrorType.unauthorized, code: 401),
-        );
+        return const Left(unauthorizedError);
       } else if (statusCode == 404) {
-        return const Left(
-          ApiError(errorType: ApiErrorType.notFound, code: 404),
-        );
+        return const Left(notFoundError);
       } else if (statusCode == 429) {
-        return const Left(
-          ApiError(errorType: ApiErrorType.tooManyRequests, code: 429),
-        );
+        return const Left(tooManyRequestsError);
       } else {
-        return const Left(ApiError(errorType: ApiErrorType.unknown));
+        return const Left(unknownError);
       }
     }
   }
-}
-
-class ApiError extends Equatable {
-  const ApiError({required this.errorType, this.code});
-
-  final ApiErrorType errorType;
-  final int? code;
-
-  @override
-  List<Object?> get props => [errorType, code];
-}
-
-enum ApiErrorType {
-  unauthorized,
-  notFound,
-  tooManyRequests,
-  unknown,
 }

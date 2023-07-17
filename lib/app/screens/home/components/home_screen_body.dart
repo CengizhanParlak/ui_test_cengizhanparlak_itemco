@@ -15,25 +15,34 @@ class HomeScreenBody extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return ref.watch(GetMostPopularProvider(period: Period.week)).when(
-          data: (data) {
-            if (data?.results.isEmpty ?? true) {
-              return Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  const NoDataText(),
-                  ElevatedButton(
-                    onPressed: () => ref.refresh(
+          data: (result) {
+            return result.fold(
+              (left) {
+                return Center(
+                  child: ErrorText(
+                    text: left.errorType.message,
+                    refresh: () => ref.refresh(
                       GetMostPopularProvider(period: Period.week),
                     ),
-                    child: const Text('Refresh'),
                   ),
-                ],
-              );
-            }
-            return const ArticlesListView();
+                );
+              },
+              (right) {
+                if (right?.results.isEmpty ?? true) {
+                  return NoDataText(
+                    refresh: () {
+                      return ref.refresh(
+                        GetMostPopularProvider(period: Period.week),
+                      );
+                    },
+                  );
+                }
+                return const ArticlesListView();
+              },
+            );
           },
           loading: () => const AppLoadingIndicator(),
-          error: (err, stack) => ErrorText(text: err.toString()),
+          error: (err, stack) => ErrorText(text: '$err'),
         );
   }
 }
