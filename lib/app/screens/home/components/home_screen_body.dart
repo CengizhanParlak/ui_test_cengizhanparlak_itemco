@@ -29,12 +29,14 @@ class HomeScreenBody extends ConsumerWidget {
               },
               (right) {
                 if (right?.results.isEmpty ?? true) {
-                  return NoDataText(
-                    refresh: () {
-                      return ref.refresh(
-                        GetMostPopularProvider(period: Period.week),
-                      );
-                    },
+                  return Center(
+                    child: NoDataText(
+                      refresh: () {
+                        return ref.refresh(
+                          GetMostPopularProvider(period: Period.week),
+                        );
+                      },
+                    ),
                   );
                 }
                 return const ArticlesListView();
