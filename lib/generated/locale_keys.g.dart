@@ -2,5 +2,6 @@
 
 abstract class  LocaleKeys {
   static const mostPopularText = 'mostPopularText';
+  static const brief = 'brief';
 
 }
