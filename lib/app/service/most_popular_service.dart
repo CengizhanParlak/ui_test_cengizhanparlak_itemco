@@ -1,3 +1,4 @@
+import 'package:either_dart/either.dart';
 import 'package:flutter/foundation.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
@@ -14,9 +15,17 @@ Future<MostPopular?> getMostPopular(
 }) async {
   try {
     final mostPopularRepo = ref.read(mostPopularRepoProvider);
-    final mostPopular = await mostPopularRepo.getMostPopular(period: period);
-    ref.read(articlesServiceProvider).addArticles(mostPopular?.results ?? []);
-    return mostPopular;
+    final Either<ApiError, MostPopular?> mostPopular =
+        await mostPopularRepo.getMostPopular(period: period);
+    if (mostPopular.isLeft) {
+      debugPrint(mostPopular.left.errorType.name);
+      return null;
+    } else {
+      ref
+          .read(articlesServiceProvider)
+          .addArticles(mostPopular.right?.results ?? []);
+      return mostPopular.right;
+    }
   } catch (e, s) {
     debugPrint(e.toString());
     debugPrint(s.toString());

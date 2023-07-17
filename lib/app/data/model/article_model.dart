@@ -1,11 +1,12 @@
 import 'dart:convert';
 
+import 'package:equatable/equatable.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/result_type_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/source_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/media_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 
-class Article {
+class Article extends Equatable {
   Article({
     required this.uri,
     required this.url,
@@ -173,4 +174,30 @@ class Article {
       };
 
   bool get hasImage => media.firstOrNull?.mediaMetadata.firstOrNull != null;
+
+  @override
+  List<Object?> get props => [
+        uri,
+        url,
+        id,
+        assetId,
+        source,
+        publishedDate,
+        updated,
+        section,
+        subsection,
+        nytdsection,
+        adxKeywords,
+        column,
+        byline,
+        type,
+        title,
+        resultAbstract,
+        desFacet,
+        orgFacet,
+        perFacet,
+        geoFacet,
+        media,
+        etaId,
+      ];
 }

@@ -1,11 +1,12 @@
 import 'dart:convert';
 
+import 'package:equatable/equatable.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/media_type_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/subtype_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/media_metadatum_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 
-class Media {
+class Media extends Equatable {
   Media({
     required this.type,
     required this.subtype,
@@ -69,4 +70,13 @@ class Media {
         'media-metadata':
             List<dynamic>.from(mediaMetadata.map((x) => x.toJson())),
       };
+
+  @override
+  List<Object?> get props => [
+        type,
+        subtype,
+        caption,
+        approvedForSyndication,
+        mediaMetadata,
+      ];
 }

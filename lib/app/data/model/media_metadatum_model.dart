@@ -1,10 +1,11 @@
 import 'dart:convert';
 
+import 'package:equatable/equatable.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 
 import 'package:ui_test_cengizhanparlak/app/data/enums/format_enum.dart';
 
-class MediaMetadatum {
+class MediaMetadatum extends Equatable {
   MediaMetadatum({
     required this.url,
     required this.format,
@@ -47,4 +48,7 @@ class MediaMetadatum {
         'height': height,
         'width': width,
       };
+
+  @override
+  List<Object?> get props => [url, format, height, width];
 }

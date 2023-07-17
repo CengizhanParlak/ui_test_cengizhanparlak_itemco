@@ -1,18 +1,13 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart';
-import 'package:http/http.dart';
+import 'package:either_dart/either.dart';
+import 'package:equatable/equatable.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/period_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/constant/values/endpoints.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/api_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/most_popular_model.dart';
 import 'package:http/http.dart' as http;
-
-// ignore: one_member_abstracts
-abstract class MostPopularRepository {
-  Future<MostPopular?> getMostPopular({required Period period});
-}
 
 final mostPopularRepoProvider = Provider.autoDispose<MostPopularRepoImpl>(
   (ref) {
@@ -26,6 +21,13 @@ final mostPopularRepoProvider = Provider.autoDispose<MostPopularRepoImpl>(
   },
 );
 
+// ignore: one_member_abstracts
+abstract class MostPopularRepository {
+  Future<Either<ApiError, MostPopular?>> getMostPopular({
+    required Period period,
+  });
+}
+
 class MostPopularRepoImpl implements MostPopularRepository {
   MostPopularRepoImpl({required this.api, required this.client});
 
@@ -34,33 +36,56 @@ class MostPopularRepoImpl implements MostPopularRepository {
   final ApiModel api;
 
   @override
-  Future<MostPopular?> getMostPopular({required Period period}) async {
-    // final response = await client.get(
-    //   Uri.parse('${api.endpoint}/${period.asInt}.json?api-key=${api.apiKey}'),
-    // );
-    final json = await rootBundle.loadString('assets/response.json');
-    final response = Response(
-      json,
-      200,
-      headers: {
-        'content-type': 'application/json; charset=utf-8',
-      },
+  Future<Either<ApiError, MostPopular?>> getMostPopular({
+    required Period period,
+  }) async {
+    final response = await client.get(
+      Uri.parse('${api.endpoint}/${period.asInt}.json?api-key=${api.apiKey}'),
     );
     if (response.statusCode == 200 && response.body.isNotEmpty) {
       if (response.body == '[]') {
-        // showToast(LocaleKeys.noDataFound.translate);-
-        return null;
+        return const Right(null);
       }
       final responseBody = jsonDecode(response.body);
       if (responseBody is Map<String, dynamic>) {
-        return MostPopular.fromJson(responseBody);
+        return Right(MostPopular.fromJson(responseBody));
       } else {
-        // showToast(LocaleKeys.noDataFound.translate);
-        return null;
+        return const Right(null);
       }
     } else {
-      // showToast(LocaleKeys.failedToFetch.translate);
-      return null;
+      final statusCode = response.statusCode;
+      if (statusCode == 401) {
+        return const Left(
+          ApiError(errorType: ApiErrorType.unauthorized, code: 401),
+        );
+      } else if (statusCode == 404) {
+        return const Left(
+          ApiError(errorType: ApiErrorType.notFound, code: 404),
+        );
+      } else if (statusCode == 429) {
+        return const Left(
+          ApiError(errorType: ApiErrorType.tooManyRequests, code: 429),
+        );
+      } else {
+        return const Left(ApiError(errorType: ApiErrorType.unknown));
+      }
     }
   }
+}
+
+class ApiError extends Equatable {
+  const ApiError({required this.errorType, this.code});
+
+  final ApiErrorType errorType;
+  final int? code;
+
+  @override
+  List<Object?> get props => [errorType, code];
+}
+
+enum ApiErrorType {
+  unauthorized,
+  notFound,
+  tooManyRequests,
+  unknown,
 }

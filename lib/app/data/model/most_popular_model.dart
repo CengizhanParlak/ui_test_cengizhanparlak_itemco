@@ -6,6 +6,7 @@
 
 import 'dart:convert';
 
+import 'package:equatable/equatable.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/format_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/media_type_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/enums/result_type_enum.dart';
@@ -14,7 +15,7 @@ import 'package:ui_test_cengizhanparlak/app/data/enums/subtype_enum.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/enum_values_model.dart';
 
-class MostPopular {
+class MostPopular extends Equatable {
   MostPopular({
     required this.status,
     required this.copyright,
@@ -60,6 +61,9 @@ class MostPopular {
         'num_results': numResults,
         'results': List<dynamic>.from(results.map((x) => x.toJson())),
       };
+
+  @override
+  List<Object?> get props => [status, numResults, results];
 }
 
 final formatValues = EnumValues({
