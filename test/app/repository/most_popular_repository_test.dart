@@ -206,7 +206,7 @@ void main() {
       );
     });
 
-    test('GET request may return 401 - Unauthorized', () async {
+    test('Failed GET request may return 401 - Unauthorized', () async {
       when(
         () {
           return mockHttpClient.get(
@@ -231,7 +231,7 @@ void main() {
       );
     });
 
-    test('GET request may return 404 - Not Found', () async {
+    test('Failed GET request may return 404 - Not Found', () async {
       when(
         () {
           return mockHttpClient.get(
@@ -256,7 +256,7 @@ void main() {
       );
     });
 
-    test('GET request may return 429 - Too many request', () async {
+    test('Failed GET request may return 429 - Too many request', () async {
       when(
         () {
           return mockHttpClient.get(
@@ -281,7 +281,7 @@ void main() {
       );
     });
 
-    test('GET request may return unknown error', () async {
+    test('Failed GET request may return unknown error', () async {
       when(
         () {
           return mockHttpClient.get(
