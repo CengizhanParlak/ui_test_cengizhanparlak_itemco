@@ -47,7 +47,6 @@ void main() {
           http.Response('[]', 200),
         );
       });
-      print('comes here ');
       final mostPopular = await mostPopularRepository.getMostPopular(
         period: Period.week,
       );
