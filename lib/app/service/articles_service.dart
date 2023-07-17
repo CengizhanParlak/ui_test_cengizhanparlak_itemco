@@ -1,12 +1,24 @@
+import 'package:either_dart/either.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:ui_test_cengizhanparlak/app/data/model/api_error_model.dart';
 import 'package:ui_test_cengizhanparlak/app/data/model/article_model.dart';
+import 'package:ui_test_cengizhanparlak/app/repository/article_repository.dart';
 
 final articlesServiceProvider = ChangeNotifierProvider<ArticlesService>((ref) {
-  return ArticlesService();
+  return ArticlesService(ref.read(articleRepoProvider));
+});
+
+final getArticleProvider =
+    FutureProvider.family<Either<ApiError, String?>, String>((ref, url) async {
+  final myChangeNotifier = ref.watch(articlesServiceProvider);
+  return myChangeNotifier.getArticle(url);
 });
 
 class ArticlesService extends ChangeNotifier {
+  ArticlesService(this.articleRepo);
+
+  ArticleRepositoryImpl articleRepo;
   final List<Article> articles = [];
   final List<Article> filteredArticles = [];
 
@@ -16,6 +28,10 @@ class ArticlesService extends ChangeNotifier {
   bool get isTextEmpty => nameController.text.isEmpty;
   String get query => nameController.text;
   SortType get sortType => _sortType;
+
+  Future<Either<ApiError, String?>> getArticle(String url) async {
+    return articleRepo.getArticle(url);
+  }
 
   void switchSort() {
     _sortType = _sortType.isAsc ? SortType.DATE_DESC : SortType.DATE_ASC;
